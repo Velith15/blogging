@@ -1,0 +1,21 @@
+.article-list-header {
+  margin-bottom: 2.5rem;
+}
+
+.section-heading {
+  font-family: var(--font-serif);
+  font-size: clamp(1.8rem, 3vw, 2.5rem);
+  font-weight: 400;
+  color: var(--text-primary);
+  margin-bottom: 0.5rem;
+}
+
+.section-subheading {
+  font-size: 1.05rem;
+  color: var(--text-secondary);
+  font-weight: 300;
+}
+
+.article-rows-wrapper {
+  border-top: 1px solid var(--border-color);
+}

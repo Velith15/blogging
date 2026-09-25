@@ -1,0 +1,27 @@
+.about-section {
+  border-top: 1px solid var(--border-color);
+}
+
+.about-wrapper {
+  max-width: 740px;
+}
+
+.about-copy {
+  margin-top: 1.5rem;
+  margin-bottom: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+.about-copy p {
+  font-size: 1.15rem;
+  line-height: 1.7;
+  color: var(--text-secondary);
+}
+
+.about-link {
+  font-size: 0.95rem;
+  font-weight: 500;
+  color: var(--text-primary);
+}

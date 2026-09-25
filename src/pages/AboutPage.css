@@ -1,0 +1,109 @@
+.about-page {
+  padding-top: calc(var(--nav-height) + 3rem);
+  padding-bottom: 4rem;
+}
+
+.about-page-header {
+  margin-bottom: 3.5rem;
+  border-bottom: 1px solid var(--border-color);
+  padding-bottom: 2.5rem;
+}
+
+.about-category-badge {
+  display: inline-block;
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--text-muted);
+  margin-bottom: 1rem;
+}
+
+.about-page-title {
+  font-family: var(--font-serif);
+  font-size: clamp(2.2rem, 4.5vw, 3.25rem);
+  font-weight: 400;
+  line-height: 1.18;
+  color: var(--text-primary);
+  margin-bottom: 1.25rem;
+}
+
+.about-page-deck {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  color: var(--text-secondary);
+  font-weight: 300;
+}
+
+.about-page-body {
+  font-family: var(--font-serif);
+  font-size: 1.2rem;
+  line-height: 1.8;
+  color: var(--text-primary);
+}
+
+.about-page-body p {
+  margin-bottom: 1.8rem;
+}
+
+.about-page-body h2 {
+  font-family: var(--font-serif);
+  font-size: 1.75rem;
+  font-weight: 500;
+  color: var(--text-primary);
+  margin-top: 3rem;
+  margin-bottom: 1.25rem;
+}
+
+.about-page-body ul {
+  margin-bottom: 2rem;
+  padding-left: 1.5rem;
+}
+
+.about-page-body li {
+  margin-bottom: 1rem;
+  font-family: var(--font-sans);
+  font-size: 1.05rem;
+  line-height: 1.6;
+  color: var(--text-secondary);
+}
+
+.about-page-body li strong {
+  color: var(--text-primary);
+}
+
+.about-socials-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  margin-top: 1.25rem;
+  margin-bottom: 3rem;
+}
+
+.social-chip {
+  font-family: var(--font-sans);
+  font-size: 0.95rem;
+  font-weight: 500;
+  color: var(--text-primary);
+  padding: 0.85rem 1.35rem;
+  border: 1px solid var(--border-color);
+  border-radius: 6px;
+  background-color: var(--bg-card);
+  transition: border-color var(--transition-fast), transform var(--transition-fast), background-color var(--transition-fast);
+  display: inline-flex;
+  align-items: center;
+  gap: 0.75rem;
+  width: fit-content;
+  text-decoration: none;
+}
+
+.social-chip:hover {
+  border-color: var(--text-primary);
+  background-color: var(--accent-soft);
+  transform: translateX(4px);
+}
+
+.social-icon {
+  color: var(--text-primary);
+  flex-shrink: 0;
+}
